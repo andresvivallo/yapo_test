@@ -6,9 +6,9 @@ start = time.time()
 
 # Parámetros iniciales
 url = 'https://drive.google.com/u/0/uc?export=download&confirm=4uEc&id=1NY9mapQxPGcNIsciG2WYgMJwi0Q6N9eV'  # url de descarga del .zip
-datapath = 'data'  # Folder donde se almacenan lo(s) archivo(s) .zip
-filename = 'products'
-patternEnds = 's00.csv'  # Pattern para identificar el .csv con column names correctas
+datapath = 'data'  # Carpeta donde se almacenan lo(s) archivo(s) .zip
+filename = 'products'  # Nombre para el .zip que se descarga
+patternEnds = 's00.csv'  # Pattern para identificar el .csv con column names
 
 # Download .zip
 download_zip_from_drive(url=url, datapath=datapath, filename=filename)
