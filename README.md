@@ -1,5 +1,6 @@
 # yapo_test
-test pega yapo
+Este repositorio fue creado para la realización de un test para el puesto de data engineer en Yapo,
+el código run.py es el que se debe correr para obtener el output de un archivo .json con lo que se solicitó.
 
 # Para crear el conda env
  - `conda env create -f environment.yml`
